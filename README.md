@@ -19,7 +19,7 @@ HMCL启动器只需要将mod加入启动器即可。
 
 模组的快捷键可以使用按键设置
 
-optifine目前是快照，运行不一定稳定。
+optifine目前是快照，运行不一定稳定。（以后应该会越来越不稳定）
 
 ## 常用快捷键
 
@@ -44,18 +44,28 @@ optifine目前是快照，运行不一定稳定。
     * V+滚轮 - 控制放大倍数
 * T - 插火把
 
-### 2020.7.21更新
+### 2020.7.29
+
+更新fabric下优化光影的mod
+optifabric作者表示不再维护项目，所以以后更新的optifine可能无法在fabric端使用
+canvas为一个轻量级的光影系统，与optifine的光影不同，仅制作了自发光以及更细腻的平滑光照，没有光追。
+sodium和canvas和optifine不兼容，其他mod理论上兼容
+lamb dynamic lights添加了火把的发光贴图，使夜晚更加黑暗
+motio NO禁止了在各种状态下视野发生变化
+custom FOV添加了修改视野的选项
+
+### 2020.7.21
 
 更新增加帧数的mod（未测试与光影的兼容性）。已知sodium与光影不兼容。
 更新tweakroo，修复freecamera的bug
 添加replaymod，方便录制游戏视频。
 
-### 2020.7.17更新
+### 2020.7.17
 
 删除之前的错误mod
 更新一个可以使帧数翻倍的mod，目前该mod与光影不兼容
 
-### 2020.7.16更新
+### 2020.7.16
 
 更新masady全家桶
 更新optifine
@@ -64,9 +74,7 @@ optifine目前是快照，运行不一定稳定。
 添加blur模组，美化gui界面
 添加光影包推荐，精选了现有的质量高的光影
 
-
-
-### 2020.7.4更新
+### 2020.7.4
 
 更新wi zoom模组，实现如optifine的望远镜功能。
 更新optifine对1.16.1的快照。optifine需要optifabric才能在fabric下运行。
